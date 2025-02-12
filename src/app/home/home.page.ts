@@ -10,14 +10,14 @@ import { IPregunta } from './../interfaces/interfaces';
 })
 export class HomePage {
 
-  //Importar servicio
+  //Zerbitzua inportatu
   constructor() {}
 
-  //Crear método para gestionar el onclick de RESPONDER
-  //Recibirá un IPregunta y llamará al servicio para realizar las operaciones necesarias.
+  //Metodo bat sortu "Erantzun" onclick egiteko
+  //IGaldera bat jasoko du eta zerbitzua deituko du beharrezkoak diren eragiketak egiteko
 
-  //Crear método para gestionar el onclick de Guardar
-  //No recibe parámetros y llamará al servicio para realizar las operaciones necesarias.
+  //Sortu metodo bat "Gorde"ren onclick-a kudeatzeko
+  //Ez du parametrorik jasotzen eta zerbitzuari deituko dio dagokion eragiketak egiteko.
 
 
 }

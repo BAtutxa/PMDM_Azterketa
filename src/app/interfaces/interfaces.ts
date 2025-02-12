@@ -1,14 +1,14 @@
-// Se usa un entero para controlar el estado de la pregunta: 
-// 0- No contestada
-// 1-Respuesta correcta
-// <0: Respuesta incorrecta (número de fallos)
-// respuestasIncorrectas: Array que contendrá los valores incorrectas introducidas
-// intentos: intentos realizados
-// acierto: True en caso de haber acertado
+//Zenbaki oso bat erabiltzaen da galderaren egoera kontrolatzeko:
+// 0 - Erantzun gabe
+// 1 - Erantzun zuzena
+// <0 - Erantzun okerra (zenbatzeko akatsak)
+// respuestasIncorrectas - array bat izan duena bidalitako erantzun okerren balioak
+// intentos - egindako saiakerak
+// acierto - true erantzuna asmatu izatekotan
 export interface IPregunta {
   logotipo: string;
   respuesta: string;
-  //No existen en el json
+  //Ez dira json-ean existitzen
   respuestasIncorrectas: string[];
   intentos: number;
   acierto: boolean;
